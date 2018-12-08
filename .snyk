@@ -1,0 +1,19 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - alertify.js > snyk > snyk-resolve > debug:
+        patched: '2018-12-08T05:38:45.463Z'
+    - alertify.js > snyk > snyk-resolve-deps > snyk-resolve > debug:
+        patched: '2018-12-08T05:38:45.463Z'
+    - alertify.js > snyk > snyk-policy > snyk-resolve > debug:
+        patched: '2018-12-08T05:38:45.463Z'
+  'npm:ms:20170412':
+    - alertify.js > snyk > snyk-resolve > debug > ms:
+        patched: '2018-12-08T05:38:45.463Z'
+    - alertify.js > snyk > snyk-resolve-deps > snyk-resolve > debug > ms:
+        patched: '2018-12-08T05:38:45.463Z'
+    - alertify.js > snyk > snyk-policy > snyk-resolve > debug > ms:
+        patched: '2018-12-08T05:38:45.463Z'
